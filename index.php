@@ -1,10 +1,10 @@
 <?php
-echo "Hola mundo". "<br>";
+echo "Hola mundo". "<br><br>";
 
 //Ejercicio N° 6 
 //Forma 1: Creando un array con contructor
 
-$array = array(
+$arrayForma1 = array(
 
     rand(0,150),
     rand(0,150),
@@ -12,9 +12,21 @@ $array = array(
     rand(0,150),
     rand(0,150)
 );
+echo "----- Array Forma 1 -----<br><br>";
+var_dump($arrayForma1);
 
-var_dump($array);
+echo "<br><br>";
 
-echo "<br><br>"
+//Forma 2: Creando array con valores literales (Con corchetes)
 
+$arrayForma2 [0] = rand(0,150);
+$arrayForma2 [1] = rand(0,150);
+$arrayForma2 [2] = rand(0,150);
+$arrayForma2 [3] = rand(0,150);
+$arrayForma2 [4] = rand(0,150);
+
+
+echo "----- Array Forma 2 -----<br><br>";
+var_dump($arrayForma2);
+echo "<br><br>";
 ?>
