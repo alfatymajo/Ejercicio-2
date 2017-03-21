@@ -29,4 +29,10 @@ $arrayForma2 [4] = rand(0,150);
 echo "----- Array Forma 2 -----<br><br>";
 var_dump($arrayForma2);
 echo "<br><br>";
+$arrayForma3 = array();
+array_push($arrayForma3, rand(0,150),rand(0,150),rand(0,150),rand(0,150),rand(0,150));
+echo "----- Array Forma 3 -----<br><br>";
+var_dump($arrayForma3);
+
+
 ?>
